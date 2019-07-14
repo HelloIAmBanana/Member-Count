@@ -1,0 +1,33 @@
+{
+  "name": "MemcountNumber",
+  "temp": "",
+  "event-type": "1",
+  "_id": "EKLnl",
+  "actions": [
+    {
+      "info": "0",
+      "find": "type ur server id here",
+      "storage": "1",
+      "varName": "server",
+      "name": "Find Server"
+    },
+    {
+      "server": "1",
+      "varName": "server",
+      "info": "36",
+      "storage": "2",
+      "varName2": "memcount",
+      "name": "Store Server Info"
+    },
+    {
+      "time": "5",
+      "measurement": "2",
+      "name": "Wait"
+    },
+    {
+      "source": "EKLnl",
+      "type": "true",
+      "name": "Call Command/Event"
+    }
+  ]
+}
