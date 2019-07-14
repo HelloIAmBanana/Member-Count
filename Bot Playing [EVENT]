@@ -1,0 +1,29 @@
+{
+  "name": "Memcount",
+  "permissions": "ADMINISTRATOR",
+  "restriction": "1",
+  "actions": [
+    {
+      "gameName": "There are ${serverVars(\"memcount\")} members on the server",
+      "gameLink": "",
+      "name": "Set Bot Game"
+    },
+    {
+      "time": "5",
+      "measurement": "2",
+      "name": "Wait"
+    },
+    {
+      "gameName": "There are ${serverVars(\"memcount\")} members on the server",
+      "gameLink": "",
+      "name": "Set Bot Game"
+    },
+    {
+      "source": "Nqzrv",
+      "type": "true",
+      "name": "Call Command/Event"
+    }
+  ],
+  "_id": "Nqzrv",
+  "event-type": "1"
+}
